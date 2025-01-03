@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import whatap.backend.entry_test.domain.Product;
 import whatap.backend.entry_test.dto.req.product.GetProductDto;
 
 import java.util.List;
@@ -14,7 +15,7 @@ import java.util.List;
 @AllArgsConstructor
 public class GetProductsByPaginationResponseDto
 {
-    private List<GetProductResponseDto> products;
+    private List<Product> products;
 
     private int currentPage;
 

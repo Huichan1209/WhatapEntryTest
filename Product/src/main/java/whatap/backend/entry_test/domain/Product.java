@@ -1,4 +1,4 @@
-package whatap.backend.entry_test.entity;
+package whatap.backend.entry_test.domain;
 
 import lombok.Getter;
 import lombok.Setter;
